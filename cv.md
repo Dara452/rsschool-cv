@@ -27,7 +27,7 @@ My priorities are to grow as a web developer by building personal projects and l
 ## 💼 Work Experience
 
 **IT Education Specialist**  
-_2021 — Present_
+_2022 — Present_
 
 - Organizing and supporting educational programs in IT  
 - Working with students and conducting training sessions  
