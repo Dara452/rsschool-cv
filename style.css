@@ -5,12 +5,26 @@ body {
   font-family: sans-serif;
 }
 
-a, ul, li, h1, h2 {
+a, ul, li, h1, h2, p {
   padding: 0;
   margin: 0;
   text-decoration: none;
   color: inherit;
   list-style: none;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.25;
 }
 
 /* Common styles */
@@ -104,5 +118,38 @@ a, ul, li, h1, h2 {
 }
 
 /* Main styles */
+.main-content {
+  display: flex;
+  color: #333;
+}
+
+.content-left {
+  flex: 0 0 40%;
+   padding-right: 40px;
+}
+
+.content-right {
+  flex: 1;
+  border-left: 2px #333 solid;
+  padding-left: 40px;
+} 
+
+.main-content h2, .main-content p, .main-content ul {
+  margin-bottom: 15px
+}
+
+.main-content li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 20px;
+  }
+.main-content strong {
+    color: #333;
+  }
+.main-content span {
+  display: block;
+}
 
 /* Footer styles */
