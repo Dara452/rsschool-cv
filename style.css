@@ -1,17 +1,108 @@
+/* Reset default styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background-color: #f5f5f5;
-  color: #333;
+  margin: 0;
+  font-family: sans-serif;
 }
-header, footer {
-  background-color: #222;
-  color: white;
+
+a, ul, li, h1, h2 {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
+
+/* Common styles */
+.container {
+  padding: 40px;
+}
+
+/* Header styles */
+.cv-header {
+  background-color: #333;
+  color: #fff
+}
+
+.cv-header-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.cv-avatar {
+  flex: 0 0 20%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.cv-header-info {
+  flex: 1;
   text-align: center;
-  padding: 1rem 0;
+  align-self: center;
 }
-main {
-  padding: 3rem;
+
+.cv-header-info h1 {
+  font-size: 35px;
 }
+
+.cv-header-info p {
+  font-size: 25px;
+}
+
+.cv-header-contacts {
+  flex: 0 0 25%;
+  border-left: 2px #fff solid;
+  padding-left: 30px
+}
+
+.cv-header-contacts ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.cv-header-contacts ul li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.cv-header-contacts img {
+  padding-right: 10px;
+}
+
+.cv-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 980px) {
+  .cv-header-wrapper {
+    flex-direction: column;
+  }
+
+  .cv-avatar, .cv-header-contacts {
+    flex: 1;
+  }
+
+  .cv-avatar {
+    margin-bottom: 25px;
+    width: 50%;
+    align-self: center;
+  }
+
+  .cv-header-contacts {
+  border-left: none;
+  border-top: 2px #fff solid;
+  padding-left: 0;
+  padding-top: 25px;
+}
+
+}
+
+/* Main styles */
+
+/* Footer styles */
