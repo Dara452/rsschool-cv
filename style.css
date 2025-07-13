@@ -37,6 +37,8 @@ p {
 /* Common styles */
 .container {
   padding: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* Header styles */
@@ -182,6 +184,23 @@ p {
     border-top: 2px #333 solid;
     padding-top: 40px;
   }
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 16px;
+}
+
+code {
+  font-family: Consolas, monospace;
+  color: #333;
+}
+
+.tasks a:hover {
+  color: rgb(124, 124, 6);
 }
 
 /* Footer styles */
