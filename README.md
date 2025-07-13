@@ -1,1 +1,1 @@
-# rsschool-cv
+[CV project 2](https://dara452.github.io/rsschool-cv)
